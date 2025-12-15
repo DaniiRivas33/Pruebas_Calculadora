@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+Test set: Calculadora_CientificaTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 2.634 s <<< FAILURE! -- in Calculadora_CientificaTest
+Calculadora_CientificaTest.testCos45Grados -- Time elapsed: 0.569 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: cos(60°) debe ser 0.5 ==> expected: <0.5> but was: <0.5000000000000001>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at Calculadora_CientificaTest.testCos45Grados(Calculadora_CientificaTest.java:98)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+Calculadora_CientificaTest.testSuma -- Time elapsed: 0.165 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 5+4 debe ser 9 ==> expected: <9.0> but was: <5.05>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at Calculadora_CientificaTest.testSuma(Calculadora_CientificaTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+Calculadora_CientificaTest.testOperacionesCombinadas -- Time elapsed: 0.199 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Debe respetar * antes que + ==> expected: <17.0> but was: <12.998497149863864>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at Calculadora_CientificaTest.testOperacionesCombinadas(Calculadora_CientificaTest.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+Calculadora_CientificaTest.testDivision -- Time elapsed: 0.118 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 4/2 es 2 ==> expected: <2.0> but was: <0.4987820251299121>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at Calculadora_CientificaTest.testDivision(Calculadora_CientificaTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+Calculadora_CientificaTest.testDecimal -- Time elapsed: 0.081 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1.5> but was: <0.99939082701909581.5>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at Calculadora_CientificaTest.testDecimal(Calculadora_CientificaTest.java:120)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
